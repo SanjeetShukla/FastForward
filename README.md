@@ -9,3 +9,5 @@ As of now I have undergone follwoing training programs
 * Qlikview
 * SAS
 * SSIS
+
+I will update this list as I complete more training programs, that are in pipeline.

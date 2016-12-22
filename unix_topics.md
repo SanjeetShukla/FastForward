@@ -4,4 +4,10 @@
 3. Movign a file to parent level directory.
 4. linking files hard link and symbolic link. 
 5. `find` command. `find . -name file1 -print`
-6. 
+    `find . -name "file*" -print`
+    `find . -type d -print`
+    `find . -type f -print`
+    `find . -size +10M -print`
+6. Shell Basics
+    * file name completion :-- Tab Tab
+    * `history` command => !CommandNumber

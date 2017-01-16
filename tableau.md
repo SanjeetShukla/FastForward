@@ -24,7 +24,7 @@
 3. What is window calculation?
 
 
-1. Funnel Chart:
+#### 1. Funnel Chart:
   a. Single bar chart.
   b. Size and sort will give funnel shape.
   c. Lables for data visibilit.

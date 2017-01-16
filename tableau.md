@@ -13,13 +13,12 @@
 13. tabadmin vs tabcmd.
 14. js API.
 
-
-
+##### 
 * Upgrading Tableau Server
 * Installing tableau server in distributed environment.
 * Tableau 8 vs Tableau 9
 
-Questions
+##### Questions:-
 1. What will you do to bypass authentication to db on user manchine.
 2. How to create doughnut chart in tableau?
 

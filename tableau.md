@@ -32,20 +32,20 @@
   e. In case of are we need to create a calculation of negative value.
   f. Then put the negative value to left of the measure. then label.
 
-2. Bump Chart:
+#### 2. Bump Chart:
   a. Line chart Profit numbers per market.
   b. Bump chart will show rank with various market.
   c. Quick table calculation rank, Compute using market.
   d. Right click and make profit pill to descrete. Mark type to be line.
   e. If we use a date then it shoud be descrete.
   
-3. Waterfall Chart:
+#### 3. Waterfall Chart:
   a. Running total of measure.
   b. Profit over time, quck table calculation running total.
   c. Mark type to gnat, size with negative of profit (Calculated Field).
   d. Negative profit to size and profit to colour.
   
-4. Pareto chart:
+#### 4. Pareto chart:
   a. Used to see how many dimensions are contributing to how much of measure.
   b. Product and sales, Add all members, Sales to rows and sort descending.
   c. Running percent of total sales, Quck table calculation, Edit it and click specific dim and verify that product id is checked making it addressing field.
@@ -55,7 +55,7 @@
   g. Mark type to line.
   h. To add bar chart add new Sales to row self and make dual axis, and Mark type to Bar.
  
-5. Bollinger Bands:
+#### 5. Bollinger Bands:
   a. Used in Financial analysis to show stocks are under or over sold.
   b. Moving average is the principle.
   c. Moving average is calculated based on specific period of time.

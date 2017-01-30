@@ -20,6 +20,10 @@
 
 ##### Questions:-
 1. What will you do to bypass authentication to db on user manchine.
+  1. Use Extract
+  2. embed credentials in data source while publishing tableau data source.
+  3. Embedded password: The credentials you used to connect to the data will be saved with the connection and used by everyone who accesses the data source or workbook you publish.
+  4. Server run as account: Tableau Server only. The server’s Run As user account will authenticate all users.
 2. How to create doughnut chart in tableau?
 3. What is window calculation?
 

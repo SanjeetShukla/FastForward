@@ -67,3 +67,29 @@
   e. We need 2 calc, Moving average and standard deviation, MA and SD creates upper and lower bound.
   f. MA to row shelf and then dual axis, then upper and lower bound.
  
+#### 5. Doughnut Chart:
+Step 1: Create a pie chart
+ 
+2. In Tableau Desktop, connect to Superstore sample data.
+3. Under Marks, select the Pie mark type.
+4. Drag Customer Segment to Color.
+5. Drag Sales to Size.
+6. Click Label, and then select Show mark labels.
+7. Resize the pie chart as desired.
+
+Step 2: Switch to the dual-axis chart
+ 
+1. Drag Number of Records to Rows.
+2. Drag Number of Records to Rows again.
+3. On Rows, right-click both instances of Number of Records, and then select Measure(Sum) > Minimum.
+4. On Rows, right-click the second instance of Number of Records, and then select Dual Axis.
+
+Step 3: Change the second pie chart to a circle
+ 
+1. At the bottom of the Marks card, click MIN(Number of Records) (2).
+2. Remove Customer Segment from Color.
+3. Remove Sales from Size.
+4. Click Color, and then choose the same color as the background. In this example, click white.
+5. Click Size, and then drag the slider to the left to make the circle smaller.
+6. Drag Sales to Label.
+7. Right-click on each of the axes and uncheck Show Header.

@@ -26,6 +26,10 @@
   4. Server run as account: Tableau Server only. The server’s Run As user account will authenticate all users.
 2. How to create doughnut chart in tableau?
 3. What is window calculation?
+  1. **WINDOW_AVG(expression, [start, end])** :- Returns the average of the expression within the window. The window is defined by means of offsets from the current row. Use FIRST()+n and LAST()-n for offsets from the first or last row in the partition. If the start and end are omitted, the entire partition is used.
+  
+  For example, the view below shows quarterly sales. A window average within the Date partition returns the average sales across all dates. 
+  2. Example :- **WINDOW_AVG(SUM([Profit]), FIRST()+1, 0)** computes the average of SUM(Profit) from the second row to the current row.
 
 
 #### 1. Funnel Chart:
